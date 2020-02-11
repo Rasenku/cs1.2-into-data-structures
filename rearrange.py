@@ -1,5 +1,5 @@
 import random
-
+from sys import argv
 
 
 

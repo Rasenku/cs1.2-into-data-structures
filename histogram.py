@@ -14,6 +14,7 @@ def histogram():
 		histograms.update( {word: count})
 	return histograms
 
+
 # Returns the number of unique tokens
 def unique_words(histogram):
 	return len(histogram)

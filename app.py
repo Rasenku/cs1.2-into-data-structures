@@ -10,6 +10,7 @@ def generate_words():
     my_file = open("./words.txt", "r")
     lines = my_file.readlines()
     my_histogram = histogram(lines)
+    return my_histogram
 
 
 if __name__ == '__main__':

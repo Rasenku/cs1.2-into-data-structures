@@ -6,7 +6,7 @@ def read_file():
 	f.close()
 	return words
 
-def histogram():
+def histogram(words=None):
 	histograms = {}
 	words = text.split()
 	for word in words:
